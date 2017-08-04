@@ -1,0 +1,51 @@
+.jumbotron {
+
+box-sizing: border-box;
+
+background-color: aqua;
+
+}
+
+.container {
+
+box-sizing: border-box;
+
+background-color: darkblue;
+
+width: 100%;
+
+}
+
+.panel-title {
+
+padding: 10px;
+
+background-color: aqua;	
+
+}
+
+
+/* Style the submit button with a specific background color etc */
+button[type=submit], button[type=reset] {
+    background-color: #20B2AA;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+  
+/* When moving the mouse over the submit button, add a darker green color */
+	button[type=submit]:hover, button[type=reset]:hover {
+    background-color: #66CDAA;
+}
+
+
+
+
+
+
+
+
+
