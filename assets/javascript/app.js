@@ -108,9 +108,8 @@
      // Delete the entry when user clicks on the Delete button
      $(document).on("click", ".remove", function() { 
         console.log("Delete the entry with key#: " + childKey); 
-        $(this).closest ('tr').remove();
-        getKey = $(this).parent().parent().attr(childKey);
-        database.child(getKey).remove(); // removes from html, but reload page it still appears.
+        $(this).closest('tr').remove();
+        database.ref().child(childKey).remove(); // removes the train schedule entry
      });
 
     // Call the function to calculate next train arrival time and minutes away
