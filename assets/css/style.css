@@ -24,6 +24,10 @@ background-color: aqua;
 
 }
 
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 /* Style the submit button with a specific background color etc */
 button[type=submit], button[type=reset] {
